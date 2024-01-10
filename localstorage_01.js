@@ -28,6 +28,8 @@ console.log(a)
 console.log(b)
 console.log(ln)
 
+
+// Remove All (Clear Local Storage)
 let clr=localStorage.clear()
 console.log(clr)
 
