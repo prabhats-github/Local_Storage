@@ -33,6 +33,15 @@ console.log(ln)
 let clr=localStorage.clear()
 console.log(clr)
 
+function count(){
 
 
 
+
+    if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount) + 1;
+        console.log(localStorage.clickcount)
+      } else {
+        localStorage.clickcount = 1;
+      }
+    }
